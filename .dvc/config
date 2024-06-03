@@ -1,7 +1,10 @@
 [core]
     remote = minio
+    autostage = true
 ['remote "minio"']
     url = s3://slices-exp/
-    endpointurl = https://10.2.213.43:9001/
+    endpointurl = https://10.2.213.43:9001/browser
     access_key_id = minioadmin
     secret_access_key = miniopassword
+    version_aware = true
+    use_ssl = False
