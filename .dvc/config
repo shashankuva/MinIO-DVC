@@ -1,0 +1,7 @@
+[core]
+    remote = minio
+['remote "minio"']
+    url = s3://slices-exp/
+    endpointurl = https://10.2.213.43:9001/
+    access_key_id = minioadmin
+    secret_access_key = miniopassword
